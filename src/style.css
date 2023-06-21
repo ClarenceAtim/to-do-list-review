@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.list-item .edit {
+  width: 93%;
+  outline: none;
+  text-align: start;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 580px;
+  background-color: white;
+  padding: 1.5rem 0;
+  padding-bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.8px solid gainsboro;
+  padding: 0 1.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.add-texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+  border-bottom: 1.8px solid gainsboro;
+}
+
+input {
+  border: none;
+  outline: none;
+  text-align: start;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+  border-bottom: 1.8px solid gainsboro;
+}
+
+.task-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-list span {
+  padding-right: 0.5rem;
+}
+
+.task-list span i {
+  font-size: 1.5em;
+  color: gainsboro;
+}
+
+.footer {
+  background-color: gainsboro;
+  text-align: center;
+  border-top: 1.8px solid gainsboro;
+  padding: 1.5rem;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.delete,
+.delete input {
+  background-color: beige;
+}
+
+.hidden {
+  display: none;
+}
+
+.activities {
+  display: flex;
+  height: auto;
+  width: 500px;
+}
